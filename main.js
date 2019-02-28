@@ -1,7 +1,7 @@
 
 let sentence = ["The","walrus","danced","through","the","trees","in","the","light","of","the","moon"];
 
-function addExcitement (theWordArray, punctuation, count) {
+addExcitement = (theWordArray, punctuation, count) => {
 
     let buildMeUp = "" // Each time the for loop executes, you're going to add one more word to this string
 
@@ -21,4 +21,4 @@ function addExcitement (theWordArray, punctuation, count) {
 }
 
 // Invoke the function and pass in the array
-addExcitement(sentence, "*", 10)
+addExcitement(sentence, "*", 5)
